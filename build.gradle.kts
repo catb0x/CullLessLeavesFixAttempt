@@ -33,7 +33,7 @@ dependencies {
 
     modImplementation("net.fabricmc:fabric-loader:$fabricLoaderVersion")
 
-    modImplementation("me.shedaniel.cloth:cloth-config-fabric:7.+") {
+    modImplementation("me.shedaniel.cloth:cloth-config-fabric:8.+") {
         exclude(module = "fabric-api")
     }
     modImplementation("com.terraformersmc:modmenu:4.0.0")
